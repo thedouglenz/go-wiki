@@ -3,3 +3,4 @@ wiki: src/wiki/*.go
 
 clean:
 	rm bin/wiki
+	find pkg -name "*.a" -exec rm -f {} \;
